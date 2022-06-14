@@ -1,2 +1,2 @@
 # hello-rails-react
-Connecting React with Rails
+Connecting React with Rails app
