@@ -1,4 +1,4 @@
-module.exports = function (api) {
+module.exports = (api) => {
   const validEnv = ['development', 'test', 'production'];
   const currentEnv = api.env();
   const isDevelopmentEnv = api.env('development');
@@ -8,10 +8,8 @@ module.exports = function (api) {
   if (!validEnv.includes(currentEnv)) {
     throw new Error(
       `${'Please specify a valid `NODE_ENV` or '
-        + '`BABEL_ENV` environment variables. Valid values are "development", '
-        + '"test", and "production". Instead, received: '}${
-        JSON.stringify(currentEnv)
-      }.`,
+      + '`BABEL_ENV` environment variables. Valid values are "development", '
+      + '"test", and "production". Instead, received: '}${JSON.stringify(currentEnv)}.`
     );
   }
 
