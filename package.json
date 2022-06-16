@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BenMukebo/hello-world-rails-react.git"
+    "url": "git+https://github.com/fobadara/hello-world-rails-react.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BenMukebo/hello-world-rails-react/issues"
+    "url": "https://github.com/fobadara/hello-world-rails-react/issues"
   },
-  "homepage": "https://github.com/BenMukebo/hello-world-rails-react#readme",
+  "homepage": "https://github.com/fobadara/hello-world-rails-react#readme",
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/eslint-parser": "^7.18.2",
